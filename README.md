@@ -20,8 +20,11 @@ Once you have installed natural-regex-cli, you can run the following in the term
 
 ```bash
 $ natural-regex --parse 'starts with "Lorem", then "foo" or "bar".' --object
+
     Literal notation: /^(Lorem)(foo|bar)/
     Constructor notation: new RegExp('^(Lorem)(foo|bar)')
+
+$
 ```
 
 ## Documentation
