@@ -24,10 +24,6 @@ $ natural-regex --parse 'starts with "Lorem", then "foo" or "bar".' --object
     Constructor notation: new RegExp('^(Lorem)(foo|bar)')
 ```
 
-this will print t
-
-NaturalRegex also includes a [command line tool](https://github.com/mbasso/natural-regex-cli-cli), check [this](https://github.com/mbasso/natural-regex-cli/wiki/Getting-Started) for more information.
-
 ## Documentation
 
 Visit the [Cli page](https://github.com/mbasso/natural-regex/wiki/Cli) in [natural-regex Wiki](https://github.com/mbasso/natural-regex/wiki) for the full documentation.
