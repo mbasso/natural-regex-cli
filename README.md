@@ -1,4 +1,4 @@
-# natural-regex-cli-cli
+# natural-regex-cli
 
 [![Build Status](https://travis-ci.org/mbasso/natural-regex-cli.svg?branch=master)](https://travis-ci.org/mbasso/natural-regex-cli)
 [![npm version](https://img.shields.io/npm/v/natural-regex-cli.svg)](https://www.npmjs.com/package/natural-regex-cli)
