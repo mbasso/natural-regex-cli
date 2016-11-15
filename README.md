@@ -1,13 +1,10 @@
 # natural-regex-cli-cli
 
+[![Build Status](https://travis-ci.org/mbasso/natural-regex-cli.svg?branch=master)](https://travis-ci.org/mbasso/natural-regex-cli)
 [![npm version](https://img.shields.io/npm/v/natural-regex-cli.svg)](https://www.npmjs.com/package/natural-regex-cli)
 [![npm downloads](https://img.shields.io/npm/dm/natural-regex-cli.svg?maxAge=2592000)](https://www.npmjs.com/package/natural-regex-cli)
 
 > Command line tool for [natural-regex](https://github.com/mbasso/natural-regex)
-
-[natural-regex-cli](https://github.com/mbasso/natural-regex-cli) is a parser that allows you to write regular expressions in natural language.
-This means that you can write self documentating regex using a simpler syntax that can be undestood by anyone.
-No more pain with validations and other stuff.
 
 ## Installation
 
