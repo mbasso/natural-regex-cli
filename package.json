@@ -1,0 +1,77 @@
+{
+  "name": "natural-regex-cli",
+  "version": "0.2.0",
+  "description": "Command line tool for natural-regex",
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "clean": "rimraf bin",
+    "build": "cross-env BABEL_ENV=commonjs babel src --out-dir bin",
+    "check:src": "npm run lint",
+    "prepublish": "npm run clean && npm run check:src && npm run build",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbasso/natural-regex-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "natural-regex",
+    "regex",
+    "regexp",
+    "regular expressions",
+    "language",
+    "natural",
+    "test",
+    "match",
+    "validation"
+  ],
+  "author": "Matteo Basso (https://github.com/mbasso)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mbasso/natural-regex-cli/issues"
+  },
+  "homepage": "https://mbasso.github.io/natural-regex-cli",
+  "devDependencies": {
+    "babel-cli": "6.10.1",
+    "babel-core": "6.9.1",
+    "babel-eslint": "6.0.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.10.3",
+    "babel-plugin-transform-es3-member-expression-literals": "6.8.0",
+    "babel-plugin-transform-es3-property-literals": "6.8.0",
+    "babel-plugin-transform-object-rest-spread": "6.8.0",
+    "babel-preset-es2015": "6.5.0",
+    "babel-preset-stage-0": "6.5.0",
+    "babel-register": "6.9.0",
+    "cross-env": "1.0.7",
+    "eslint": "2.12.0",
+    "eslint-config-airbnb": "9.0.1",
+    "eslint-plugin-import": "1.8.1",
+    "rimraf": "2.5.2"
+  },
+  "dependencies": {
+    "chalk": "1.1.3",
+    "commander": "2.9.0",
+    "natural-regex": "0.2.0"
+  },
+  "bin": {
+    "natural-regex": "./bin/index.js"
+  },
+  "npmName": "natural-regex-cli",
+  "npmFileMap": [
+    {
+      "basePath": "/bin/",
+      "files": [
+        "*.js"
+      ]
+    }
+  ],
+  "browserify": {
+    "transform": [
+      "loose-envify"
+    ]
+  }
+}
