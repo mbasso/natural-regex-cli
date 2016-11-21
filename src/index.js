@@ -27,8 +27,8 @@ const exit = ({ code = 0, message } = {}) => {
 
 program
   .version(version)
-  .option('-p, --parse <code>', 'Parse the given natural-regex')
-  .option('-o, --object', 'Specify that the output will be a RegExp instead of a string')
+  .option('-p, --parse <code>', 'parse the given natural-regex')
+  .option('-o, --object', 'specifies that the output will be a RegExp instead of a string')
   .parse(process.argv);
 
 if (typeof program.parse !== 'string') {
