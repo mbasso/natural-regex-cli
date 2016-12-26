@@ -42,6 +42,7 @@ try {
     exit({
       message: `
       Literal notation: ${naturalRegex.from(program.parse).toString()}
+      
       Constructor notation: new RegExp('${stringRegex}')
       `,
     });
